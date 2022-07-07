@@ -1,0 +1,72 @@
+<style>
+
+  header {
+  background-color: #dfdbd8;
+  color: #565c5e;
+  font-family: georgia;
+}
+
+  #img-div {
+    box-shadow: 3px 3px 10px;
+    justify-content: center;
+    position: absolute;
+  }
+  #image {
+    max-width: 100%;
+    display: block;
+  }
+  body {
+   font-family: georgia;
+  }
+</style>
+<main id="main">
+<header id="title"><h1>
+<center>The Life of Mohandas Karamchand Gandhi</h1>
+<h3> <center> The pioneer of the nonviolent freedom movement in India </h3>
+</header>
+<hr>
+<div id="img-div">
+<figure>
+<img src="http://img.timeinc.net/time/daily/2008/0805/360_gandhi_topics_0528.jpg" id="image" alt="A picture of Mahatma Gandhi">
+</div>
+</figure>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="img-caption">
+<h5>A picture of Mahatma Gandhi</h5>
+</div>
+<hr>
+<div id="tribute-info">
+<body>
+Mahatma Gandhi was born in Porbandar, a city in Western India. He was born into a life of poverty in an extremely religious household. During his childhood, he got married at the very young age of 13 and his wife was very important in the future during Gandhi's protests. He went to college in London, studying law and getting his first job at a South African law office. At the law office, he was heavily discriminated against which led him to create a political organization, the Natal Indian Congress which fought for India rights. He utilized the organization to bring up grievances related to Indian rights, which caught attention of the press and many other organization, which practically began the fight for Indian rights. In South Africa, many discriminatory laws were passed against Indians which influenced Gandhi to establish the practice of satyagraha, the defiance of law through nonviolence while suffering severe consequences, including jailing and death. While it may have had many negative effects on Indians, the practice of satyagraha eventually led to the abolishment of anti-Indian discriminatory policies in South Africa, which was a major victory for the Indian civil rights movement and Gandhi. Gandhi proceeded to return to India and become the leader of the INC (Indian National Congress), where he campaigned for Indian self-rule from Britain. Gandhi began the practice of boycotting British goods and urged Indians to make their own goods, which led to him being jailed. After he was released, he continued his nonviolent protests similar to the <a href="https://en.wikipedia.org/wiki/Salt_March">Salt March</a>, which led to him being repeatedly jailed. He eventually resigned from the INC but starting protesting again during WW2, where Gandhi demanded independence from Britain in exchange for help from India, which he was jailed for again. India eventually reached independence from Britain thanks to Gandhi's help through his protests and demands to Britain, which made him one of history's most renowned civil rights leaders. Unfortunately, while on his way to a prayer, he was killed by an angered Hinduism practitioner for protesting the partition of India and Pakistan. His funeral had over 2,000,000 attendees, which affirmed his importance to India and the extent of his impact on the Indian community.
+<hr>
+</body>
+</div>
+<footer>
+<strong>
+<div>
+Read more about his impact on his <a href="https://www.mkgandhi.org/tributes.html" target="_blank" id="tribute-link">Tribute Page</a>
+</strong>
+</div>
+</footer>
+
+<div id="main">
+<div1 id="img-div"></div1>
+<div2 id="image"></div2>
+<div3 id="img-caption">
+<div4 id="tribute-info"></div4>
+<div5 id="tribute-link"></div5>
+</div>
+<div id="img-div">
+<div1 id="img-caption">
+<div2 id="image">
+</main>
