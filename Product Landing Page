@@ -1,0 +1,125 @@
+<style>
+header {
+  position: fixed;
+  top: 0px;
+   }
+   img {
+     display: float;  float: left;
+    position: fixed;
+    top:0px;
+   }
+   #nav1 {
+     display: inline;
+     margin-top: 50px;
+     margin-left: 200px;
+     background-color: white
+   }
+      #nav2 {
+     display: inline;
+     margin-top: 50px;
+     margin-left: 240px;
+     background-color: white
+   }
+      #nav3 {
+     display: inline;
+     margin-top: 50px;
+     margin-left: 300px;
+     background-color: white
+   }
+   a {
+    float: right;
+ text-decoration: none;
+    padding: 15px;
+    font-family: verdana, sans-serif;
+    color: black;
+    position: fixed
+   } 
+    a {
+     display: flex;
+     flex-direction: row-reverse;
+
+   }
+@media only screen and (max-width: 480px) {
+  a {
+    font-size: 6px
+  }
+}
+  * {
+  font-family: verdana;
+  }
+  footer {
+   display: flex; 
+   color: white;
+   flex-direction: column;
+  justify-content: center;
+  }
+  #price1 {
+   font-size: 20px;
+   padding: 7px;
+   border-style: double;
+   border-color: black;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgICAgHBwcHBwoHBwcHBw8ICQgKFREWFhURExMYKDQgGBolJxMfITEhJSkrLjouFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAHxABAQACAQQDAAAAAAAAAAAAAAERITECQVGhYYGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOGigIqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMZ3mT4maIAAAoACKgAoCCoANdOO6AgoCAAAACoAAAAACggAAAAAAAAAAAAAKEAEUAAAAAKFBAAAAAAVAAAAVFBAAAUEBQQAAAAAAAAAFAAAAAAAARUBUAFBAFEAAABQBAAAAAAAAAAAAAAAAAFWTN8IAAAAAAAgoCCoAKgAACoAAAAAAAAAAAAAAAAAAAAAoAAAAAAACKgAoAX9AEFAQAAAAVAAAXW/SAAAAAAAAAApLi5hdggAKAAAAAAgoIACgAgAAAAAAAAtxrGeN58oAAACggAAAAAAAKgAAAqLUAABRAAAAXPpAVAAAAAAAAAAVAAAAAAAAAAAAAAABUAAAAAAABbcoAAAqAAAAKCAoIAAKgAAC7Rrp6rJZO/IMgAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAAAAAAAAAAC0EVFnPn4vcEFvP2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgAAA/9k=");
+  }
+  #price2 {
+   font-size: 20px;
+   padding: 7px;
+   border-style: double;
+   border-color: black;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgICAgHBwcHBwoHBwcHBw8ICQgKFREWFhURExMYKDQgGBolJxMfITEhJSkrLjouFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAHxABAQACAQQDAAAAAAAAAAAAAAERITECQVGhYYGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOGigIqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMZ3mT4maIAAAoACKgAoCCoANdOO6AgoCAAAACoAAAAACggAAAAAAAAAAAAAKEAEUAAAAAKFBAAAAAAVAAAAVFBAAAUEBQQAAAAAAAAAFAAAAAAAARUBUAFBAFEAAABQBAAAAAAAAAAAAAAAAAFWTN8IAAAAAAAgoCCoAKgAACoAAAAAAAAAAAAAAAAAAAAAoAAAAAAACKgAoAX9AEFAQAAAAVAAAXW/SAAAAAAAAAApLi5hdggAKAAAAAAgoIACgAgAAAAAAAAtxrGeN58oAAACggAAAAAAAKgAAAqLUAABRAAAAXPpAVAAAAAAAAAAVAAAAAAAAAAAAAAABUAAAAAAABbcoAAAqAAAAKCAoIAAKgAAC7Rrp6rJZO/IMgAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAAAAAAAAAAC0EVFnPn4vcEFvP2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgAAA/9k=")
+  }
+  #price3 {
+   font-size: 20px;
+   padding: 7px;
+   border-style: double;
+   border-color: black;
+   background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAgICAgHBwcHBwoHBwcHBw8ICQgKFREWFhURExMYKDQgGBolJxMfITEhJSkrLjouFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAHxABAQACAQQDAAAAAAAAAAAAAAERITECQVGhYYGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOGigIqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALMZ3mT4maIAAAoACKgAoCCoANdOO6AgoCAAAACoAAAAACggAAAAAAAAAAAAAKEAEUAAAAAKFBAAAAAAVAAAAVFBAAAUEBQQAAAAAAAAAFAAAAAAAARUBUAFBAFEAAABQBAAAAAAAAAAAAAAAAAFWTN8IAAAAAAAgoCCoAKgAACoAAAAAAAAAAAAAAAAAAAAAoAAAAAAACKgAoAX9AEFAQAAAAVAAAXW/SAAAAAAAAAApLi5hdggAKAAAAAAgoIACgAgAAAAAAAAtxrGeN58oAAACggAAAAAAAKgAAAqLUAABRAAAAXPpAVAAAAAAAAAAVAAAAAAAAAAAAAAABUAAAAAAABbcoAAAqAAAAKCAoIAAKgAAC7Rrp6rJZO/IMgAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAAAAAAAAAAC0EVFnPn4vcEFvP2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgAAA/9k=")
+  }
+  .button {
+    font-size: 17px;
+    background-color: yellow;
+    border: none;
+  }
+</style>
+<header id="header">
+<img src="https://lh3.googleusercontent.com/Wqhtvn7yI6f4C5kcZ3OS6YN-OtKt491mv2qhZJzefSUrrAi9DOxCZpbsUt_MUuhYU3FiaAQ5hiRfgSgvNGNxS7Vy1ANsj3-hLw8CwftGkOB5FAeIdFt4A9h1pVu-aeiaA3mMqgV2UypXetmnD94GDz7iqLpLti4kuLeOhaSG-wEDZV0rKMqT06tTq8I3h_Bz3vRj3CkKTpiyJdoeodvntFV-NpDhqcdtQGnzdm76Q0GIi4_Xmmg6oFFKlRYEF4ShTPkhqoZHqPr_yP-oqhXtLAA0H6Hbx4dvlepSw1JjfqZNi0l0C21QsYfOZYAN3T2tC_kFfTTkzWbl5nWQWpTBaF1Ue_H328C8x9-W84eoDQPaO4tGH189TKGEcNV9aCap6TcAIF6egPLU4dVRzkRwIecu61hE_0Nl4G4T28FIYgrKuWPPJOnCNVupjfH7Ieyx-ybGZyFQQ_PgRC9B1B8lTLYT8utvt6-f3JFHY9LQvVxZeIy_aQN-hjkB-1SU9TSbaDVZQYvHfu1rsO0z9lhNTT8RJGgxp2c4tRRRRc2LRRzWg3KsY3Bd0QPJYqxOnhRvFq1ezKn8F4STqZzuK-AkkS9L5m63Nzp9sD3XJhql0He9LNH09tPfOyjZrGyxdvPJW7WnxqSXrkW1OgACOK3bgoxvCdxmjLIt0TKPWxOkPSRJfScrvNXAvNLDe35hu_st5Dul6eYIXU6H4Dof3wlyyzt2ClOE-sQLrK14KF6Az6eNIJa_sv0OYQecgsdQLreyfia_JPPAmikdNcLmOzonknlLruIskSx5sG7j=s657-no?authuser=0" height="25%" id="header-img" alt="SK Fitness Center Logo">
+<nav id="nav-bar">
+    <a href="#pricing" class="nav-link" id="nav3">Pricing</a>
+    <a href="#video" class="nav-link" id="nav2">Demonstration</a>
+    <a href="#nav1" class="nav-link" id="nav1">About</a>
+</nav>
+</header>
+<div>
+<br><br><br><br><br><br><br><br><br>
+<form id="form" action="https://www.freecodecamp.com/email-submit"> 
+<center><h3>Join our mailing list:</h3><input type= "email" id="email" placeholder="Enter your Email here" name="email"><input type="submit" id="submit" ></center>
+</form>
+<body id="nav1">
+</div> 
+<div>
+<br><center><h3>About us</h3>SK Fitness Center is a gym thats mission is centered around providing the best fitness experience for its members. Our gym contains a variety of equipment, including bench presses, barbells, dumbells, smith machines, leg presses, and much more. Our employees and customer service are willing to help you with any of your gym-related needs or issues.(<h4>COVID-19 Update</h4> it is recommended that members start wearing masks and sanitizing before coming to our gym, as we have had members contract Covid-19. We will now leave antibacterial wipes next to all machines and it is recommended members clean before and after machine use.)</body></div><br>
+<center><iframe width="843" height="480" src="https://www.youtube.com/embed/RlEt2DLstAc" title="Gym Equipment Basics - Strength" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video" alt="how to use gym equipment"></iframe></center><br><br>
+<footer id="nav3">
+ <center>
+   <h2 id="pricing">Pricing</h2>
+   <p id="price1">Iron Plan: includes basic gym membership, which includes access to all machines and equipment. Iron members will need to pay a fee to use lockers in the locker room and also will not be able to access the swimming lanes, squash courts, or tennis courts.<br><br><button class="button">Select</button></p><p id="price2">Gold Plan: members with this plan will be able to use all amenities, including the gym, swimming lanes, tennis courts, and squash courts. They will also be able to use the lockers and locker room free of additional charge.<br><br><button class="button">Select</button></p><p id="price3">Diamond Plan: members of this plan will have all the benefits of the gold plan, and gain additional benefits including a reserved parking spot, a reserved premium locker with the members name on it, and access to special conference rooms.<br><br><button class="button">Select</button></p>
+</center>
+</footer>
+</div>
+<div id="nav-bar">
+  <div1 id="header"></div>
+  <div2 id="header-img"></div>
+  <div3 id="nav1"></div>
+  <div4 id="nav2"></div>
+  <div5 id="nav3"></div>
+</div>
+<div id="main">
+  <div1 id="email"></div> 
+  <div2 id="submit"></div>
+  <div3 id="form"></div>
+  <div4 id="pricing"></div>
+</div>
+<div id="pricing">
+  <div1 id="price1"></div>
+  <div2 id="price2"></div>
+  <div3 id="price3"></div>
+</div>
