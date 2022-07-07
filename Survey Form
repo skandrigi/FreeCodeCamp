@@ -1,0 +1,72 @@
+<style>
+  * {
+      background-image: url('https://img.freepik.com/free-vector/graphic-design-geometric-wallpaper_52683-34399.jpg?w=2000');
+      font-family: verdana;
+  }
+  header {
+      color: white;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  #survey-form {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+</style>
+<main>
+<header>
+<center><h1 id="title">Board Game Club Survey</h1>
+<p id="description">Your input will help us greatly with our meetings</p></center></header>
+<form id="survey-form">
+<label for="name" id="name-label"> Name* <br></label>
+<input id="name" type="text" required placeholder="Enter your Name"><br><br>
+<label for="email" id="email-label">Email* <br></label>
+<input id="email" type="email" required placeholder="Enter your Email">
+<br><br>
+<label for="number" id="number-label">
+Age* <br>
+<input id="number" type="number" min="1" max="99" required placeholder="1-99"> <br><br>
+<label for="dropdown" id="dropdown-label"> Grade</label><br>
+<select id="dropdown" required>
+<option disabled selected value>...</option>
+<option value="9">9th</option>
+<option value="10">10th</option>
+<option value="11">11th</option>
+<option value="12">12th</option></select>
+<br><br>
+<div>
+Which of the following best describes your level of experience? <br>
+<input type="radio" value="new" name="experience">New</input><br>
+<input type="radio" value="some" name="experience">Some Experience</input><br>
+<input type="radio" value="experienced" name="experience">Very Experienced</input>
+<div><br>
+What boardgames would you like us to implement in future meetings? <br>
+<input id="games" type="checkbox" value="Chess">Chess</input><br>
+<input id="games" type="checkbox" value="Checkers">Checkers</input><br>
+<input id="games" type="checkbox" value="Catan">Catan</input><br>
+<input id="games" type="checkbox" value="Monopoly">Monopoly</input><br>
+<input id="games" type="checkbox" value="Chutes & Ladders">Chutes & Ladders</input><br>
+<input id="games" type="checkbox" value="Risk">Risk</input><br>
+<input id="games" type="checkbox" value="Sorry">Sorry</input><br>
+<input id="games" type="checkbox" value="Scrabble">Scrabble</input><br>
+<div><br>
+What suggestions do you have for future meetings?
+<textarea id="suggestions" placeholder="Enter any suggestions here"></textarea><br><br>
+<input id="submit" type="submit">
+</main>
+
+<div id="survey-form">
+<div1 id="title"></div>
+<div2 id="description"></div>
+<div3 id="number"></div>
+<div4 id="name"></div>
+<div5 id="name-label"></div>
+<div6 id="email"></div>
+<div7 id="dropdown"></div>
+<div8 id="email-label"></div>
+<div9 id="submit"></div>
+<div10 id="number-label"></div>
+<div11 id="dropdown-label"></div>
+<div12 id="games"></div>
+<div13 id="submit"></div>
+<div14 id="suggestions"></div>
+</div>
