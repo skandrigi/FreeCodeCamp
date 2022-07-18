@@ -1,0 +1,123 @@
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px;
+    border-top: 2px solid black;
+    background-color: #d3d3d3;
+  }
+    #sa {
+          border-bottom: 2px solid black;
+
+    }
+  body {
+    display: flex;
+    margin: 0;
+    font-family: "Montserrat";
+  }
+  nav {
+    max-width: 220px;
+  background-color: #d3d3d3;
+    max-height: 100vh;
+  }
+  header {
+    font-size: 23px;
+    padding: 12px;
+  }
+  @media screen only and (max-width: 400px) { p {
+    font-size: 9px
+  }
+  }
+  p {
+    padding: 7px;
+  }
+
+</style>
+
+<nav id="navbar">
+<header id="title"><strong> CSS Documentation</strong></header>
+<a href="#introduction" class="nav-link">Introduction</a>
+<a href="#roadmap" class="nav-link">Roadmap</a>
+<a href="#Solving_Common_CSS_problems" class="nav-link">Solving Common CSS problems</a>
+<a href="#CSS_is_weird" class="nav-link">CSS is weird</a>
+<a href="#See_also" class="nav-link" id="sa">See also</a>
+</nav>
+
+<main id="main-doc">
+<body>
+<section class="main-section" id="introduction">
+<header><strong> Introduction</strong> </header>
+<p>
+  Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page. It describes how a webpage should look: it prescribes colors, fonts, spacing, and much more. In short, you can make your website look however you want. CSS lets developers and designers define how it behaves, including how elements are positioned in the browser. CSS is easy to learn and understand, but it provides powerful control over the presentation of an HTML document.
+</p>
+<p>
+<ul>
+<li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+<li>CSS saves a lot of work. It can control the layout of multiple web pages all at once
+<li>External stylesheets are stored in CSS files
+<li>CSS makes the front-end of a website shine and it creates a great user experience.
+<li>Without CSS, websites would be less pleasing to the eye and likely much harder to navigate. In addition to layout and format, CSS is responsible for font color and more.
+</ul>
+</p>
+</section>
+
+<section class="main-section" id="roadmap">
+<header><strong> Roadmap</strong>
+</header>
+<p>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/6pZdQpPe8zU" title="HTML and CSS Roadmap for Beginners in 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="roadmap video"></iframe>
+</p>
+<p>
+Roadmap to sharpening frontend skills through CSS
+</p>
+</section>
+
+<section class="main-section" id="Solving_Common_CSS_problems">
+<header > <strong>Solving common CSS problems</strong>
+</header>
+<p>
+<ol>
+<li><strong>Using inline CSS</strong><br>
+Inline CSS is a technique for connecting CSS to HTML. This method can be used to link CSS; there is nothing wrong with it, but we should be aware of when we should use it and when we should not. We should always follow the DRY (Don't Repeat Yourself) approach as programmers. Inline CSS makes it impossible to reuse our code because CSS attributes are unique to each element. It is, therefore, preferable to utilise CSS classes, which are designed to be reused. Ex: instead of using <code>(header style: etc)</code> use the styles.css <code> (style element) </code>
+
+<li><strong>Not using consistent naming</strong><br>
+Using a consistent naming convention in your project is a smart idea since if you're working in a group, consistency is critical. Otherwise, everything will become mixed up. We should also use meaningful names for class and id so that we can debug our code more easily and our code is more understandable. Ex: <code> (id= "generalclass") </code> versus <code> (id= "specificelementtitle")</code>
+
+<li><strong>Using only a single style sheet</strong><br>
+If you're working on a small project, it's fine to use a single style sheet. However, if you're working on a large project, splitting style sheets into distinct ones is strongly suggested because it'll be easier to manage and provide better modularity. Different CSS files might be used for different fixes. Ex: <code> (link rel="stylesheet" href="styles.css") </code> instead of <code> (link rel="stylesheet23" href="styles.css")</code>
+
+
+<li><strong>Only using absolute units</strong><br>
+It's alright to utilise absolute units in some situations, but it's a major error to do so all of the time. Now, we want our websites to be responsive so that we can use them on a variety of devices, therefore elements must scale according to the size of the window. Absolute units do not scale as the window size changes, making them unsuitable for our responsive websites. As a result, using relative units rather than absolute units is highly advised.
+
+</p>
+<p>
+Avoiding making these mistakes will make you a better developer overall.
+</p>
+</section>
+
+<section class="main-section" id="CSS_is_weird">
+<header ><strong> CSS is weird </strong></header>
+<p>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/aHUtMbJw8iA" title="Why Is CSS So Weird?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="video about why css is weird"></iframe>
+</p>
+<p>
+Video about why css is weird
+</p> 
+</section>
+
+<section class="main-section" id="See_also">
+<header><strong> See also </strong></header>
+<p>
+<a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" id="course"> CSS course</a>
+</p>
+<p>
+<a href="https://www.w3schools.com/html/html_css.asp" id="course2"> Another CSS course </a>
+</p>
+</section>
+</body>
+</main>
