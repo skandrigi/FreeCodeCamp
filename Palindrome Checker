@@ -1,0 +1,13 @@
+function palindrome(str) {
+  let string = str.toLowerCase().match(/[a-z0-9]/gi).join('');
+  let reverse = string.split('').reverse().join('');
+  if (string == reverse) {
+    return true;
+  }
+  else {
+    return false;
+  }
+  
+}
+
+palindrome("eye");
