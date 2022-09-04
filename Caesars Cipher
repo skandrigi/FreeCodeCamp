@@ -1,0 +1,16 @@
+function rot13(str) {
+  const index = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  let result = "";
+  for (let x in str) {
+    if (index.indexOf(str[x]) < 0) {
+      result += str[x];
+    }
+    else {
+      let indexFinal = (index.indexOf(str[x]) + 13) % 26
+      result += index[indexFinal];
+    }
+  }
+  return result;
+}
+
+rot13("SERR PBQR PNZC");
